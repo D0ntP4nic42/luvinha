@@ -1,5 +1,9 @@
+from luvinha.app import LuvinhaApp
+
+
 def main():
-    print("Hello from luvinha!")
+    app = LuvinhaApp()
+    app.run()
 
 
 if __name__ == "__main__":
